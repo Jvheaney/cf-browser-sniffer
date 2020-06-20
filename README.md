@@ -7,6 +7,7 @@ A more definitive approach would be detecting the browser rendering engine. I'd 
 A good reference is the Mozilla User-Agent documentation:
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent
+
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Browser_detection_using_the_user_agent
 
 There is one method, `getBrowserDetails()` which returns a `struct` containing the **browser name** and **version**.
